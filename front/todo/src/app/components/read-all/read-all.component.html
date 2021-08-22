@@ -2,7 +2,10 @@
     <div class="badge">
         <button (click)="navegarParaFinalizados()" mat-raised-button color="primary" matBadge="{{ close }}" >Tasks finalizadas</button>
     </div>
-    <button routerLink="create" mat-raised-button class="novo-todo" color="primary">Novo</button>
+    <button routerLink="create" mat-mini-fab color="primary" class="novo-todo">
+        <mat-icon>add</mat-icon>
+    </button>
+    
 
     <div class="content" *ngFor="let item of list">
         <mat-card class="example-card">

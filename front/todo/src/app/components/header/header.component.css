@@ -6,7 +6,9 @@ img{
     justify-self: left;
     height: 10%;
 }
-
+img{
+    background-image: none;
+}
 span{
     display: flex;
     align-items: center;
